@@ -3,5 +3,6 @@ com\TestBase.class
 com\LoginPageTest.class
 com\pages\MainPage.class
 com\SuiteConfiguration.class
+com\Listener.class
 com\pages\LoginPage.class
 com\MainPageTest.class

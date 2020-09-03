@@ -1,0 +1,77 @@
+04:37:17.811 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:37:20.639 [main] INFO  com.TestBase - ************ loginPositiveTest ************ test started
+04:37:20.640 [main] INFO  com.pages.PageBase - inputLogin - tester
+04:37:20.984 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+04:37:21.255 [main] INFO  com.pages.PageBase - clickOnEnterButton --->|
+04:37:21.374 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'Лента - WorkFlow'
+04:38:21.863 [main] INFO  com.TestBase - ************ loginPositiveTest ************ test failed
+04:38:26.785 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:38:28.683 [main] INFO  com.TestBase - ************ loginNegativeCurrentAccountTest ************ test started
+04:38:28.683 [main] INFO  com.pages.PageBase - inputLogin - tester
+04:38:28.943 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+04:38:29.310 [main] INFO  com.pages.PageBase - clickOnCurrentAccountButton --->|
+04:38:29.485 [main] INFO  com.pages.PageBase - errorMessageCheck ---> OK!
+04:38:29.485 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'WorkFlow'
+04:38:29.500 [main] INFO  com.pages.PageBase - Title - WorkFlow ---> OK! 
+04:38:29.501 [main] INFO  com.TestBase - ************ loginNegativeCurrentAccountTest ************ test passed
+04:38:34.246 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:38:36.327 [main] INFO  com.TestBase - ************ loginNegativeRememberCheckBoxTest ************ test started
+04:38:36.327 [main] INFO  com.pages.PageBase - inputLogin - tester
+04:38:36.561 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+04:38:36.835 [main] INFO  com.pages.PageBase - clickOnEnterButton --->|
+04:38:36.936 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'Лента - WorkFlow'
+04:38:47.289 [main] INFO  com.TestBase - ************ loginNegativeRememberCheckBoxTest ************ test failed
+04:38:52.222 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:38:58.441 [main] INFO  com.TestBase - ************ loginPageTitleTest ************ test started
+04:38:58.441 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'WorkFlow'
+04:38:58.464 [main] INFO  com.pages.PageBase - Title - WorkFlow ---> OK! 
+04:38:58.464 [main] INFO  com.TestBase - ************ loginPageTitleTest ************ test passed
+04:39:03.863 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:39:10.157 [main] INFO  com.TestBase - ************ loginPositiveRememberCheckBox1Test ************ test started
+04:39:10.158 [main] INFO  com.pages.PageBase - inputLogin - tester
+04:39:10.483 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+04:39:10.704 [main] INFO  com.pages.PageBase - clickOnEnterButton --->|
+04:39:10.787 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'Лента - WorkFlow'
+04:40:11.193 [main] INFO  com.TestBase - ************ loginPositiveRememberCheckBox1Test ************ test failed
+04:40:15.901 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:40:18.209 [main] INFO  com.TestBase - ************ loginPositiveRememberCheckBoxTest ************ test started
+04:40:18.209 [main] INFO  com.pages.PageBase - inputLogin - tester
+04:40:18.559 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+04:40:18.847 [main] INFO  com.pages.PageBase - checkInRememberMe --->|
+04:40:19.006 [main] INFO  com.pages.PageBase - clickOnEnterButton --->|
+04:40:19.118 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'Лента - WorkFlow'
+04:40:29.506 [main] INFO  com.TestBase - ************ loginPositiveRememberCheckBoxTest ************ test failed
+04:40:34.239 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:40:36.665 [main] INFO  com.TestBase - ************ loginNegativeAnotherAccountTest ************ test started
+04:40:36.666 [main] INFO  com.pages.PageBase - inputLogin - tester
+04:40:36.948 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+04:40:37.196 [main] INFO  com.pages.PageBase - clickOnAnotherAccountButton --->|
+04:40:37.319 [main] INFO  com.pages.PageBase - errorMessageCheck ---> OK!
+04:40:37.320 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'WorkFlow'
+04:40:37.332 [main] INFO  com.pages.PageBase - Title - WorkFlow ---> OK! 
+04:40:37.333 [main] INFO  com.TestBase - ************ loginNegativeAnotherAccountTest ************ test passed
+04:40:42.087 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:40:44.441 [main] INFO  com.TestBase - ************ loginNegativeWrongLoginTest ************ test started
+04:40:44.441 [main] INFO  com.pages.PageBase - inputLogin - stranger
+04:40:44.713 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+04:40:44.965 [main] INFO  com.pages.PageBase - clickOnEnterButton --->|
+04:40:45.079 [main] INFO  com.pages.PageBase - errorMessageCheck ---> OK!
+04:40:45.079 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'WorkFlow'
+04:40:45.090 [main] INFO  com.pages.PageBase - Title - WorkFlow ---> OK! 
+04:40:45.090 [main] INFO  com.TestBase - ************ loginNegativeWrongLoginTest ************ test passed
+04:40:49.930 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:40:52.115 [main] INFO  com.TestBase - ************ loginNegativeWrongPasswordTest ************ test started
+04:40:52.115 [main] INFO  com.pages.PageBase - inputLogin - tester
+04:40:52.486 [main] INFO  com.pages.PageBase - inputPassword - 12345678
+04:40:52.774 [main] INFO  com.pages.PageBase - clickOnEnterButton --->|
+04:40:52.911 [main] INFO  com.pages.PageBase - errorMessageCheck ---> OK!
+04:40:52.911 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'WorkFlow'
+04:40:52.924 [main] INFO  com.pages.PageBase - Title - WorkFlow ---> OK! 
+04:40:52.924 [main] INFO  com.TestBase - ************ loginNegativeWrongPasswordTest ************ test passed
+04:40:57.542 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+04:40:59.697 [main] INFO  com.TestBase - ************ logoutPositiveTest ************ test started
+04:40:59.698 [main] INFO  com.pages.PageBase - inputLogin - tester
+04:40:59.944 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+04:41:00.219 [main] INFO  com.pages.PageBase - clickOnEnterButton --->|
+04:41:00.304 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'Лента - WorkFlow'
+04:42:00.420 [main] INFO  com.TestBase - ************ logoutPositiveTest ************ test failed

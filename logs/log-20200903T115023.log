@@ -1,0 +1,29 @@
+11:50:29.625 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+11:50:31.940 [main] INFO  com.TestBase - ************ loginPositiveTest ************ test started
+11:50:31.942 [main] INFO  com.pages.PageBase - inputLogin - tester
+11:50:32.205 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+11:50:32.442 [main] INFO  com.pages.PageBase - clickOnEnterButton --->|
+11:50:32.531 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'Лента - WorkFlow'
+11:51:32.976 [main] INFO  com.TestBase - ************ loginPositiveTest ************ test failed
+11:51:38.651 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+11:51:41.619 [main] INFO  com.TestBase - ************ loginNegativeCurrentAccountTest ************ test started
+11:51:41.619 [main] INFO  com.pages.PageBase - inputLogin - tester
+11:51:42.286 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+11:51:42.930 [main] INFO  com.pages.PageBase - clickOnCurrentAccountButton --->|
+11:51:43.123 [main] INFO  com.pages.PageBase - errorMessageCheck ---> OK!
+11:51:43.123 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'WorkFlow'
+11:51:43.138 [main] INFO  com.pages.PageBase - Title - WorkFlow ---> OK! 
+11:51:43.139 [main] INFO  com.TestBase - ************ loginNegativeCurrentAccountTest ************ test passed
+11:51:48.548 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+11:51:51.137 [main] INFO  com.TestBase - ************ loginNegativeRememberCheckBoxTest ************ test started
+11:51:51.137 [main] INFO  com.pages.PageBase - inputLogin - tester
+11:51:51.427 [main] INFO  com.pages.PageBase - inputPassword - K35G3U
+11:51:51.642 [main] INFO  com.pages.PageBase - clickOnEnterButton --->|
+11:51:51.715 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'Лента - WorkFlow'
+11:52:01.759 [main] INFO  com.TestBase - ************ loginNegativeRememberCheckBoxTest ************ test failed
+11:52:06.667 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
+11:52:12.252 [main] INFO  com.TestBase - ************ loginPageTitleTest ************ test started
+11:52:12.252 [main] INFO  com.pages.PageBase - currentPageCheckByTitle - 'WorkFlow'
+11:52:12.284 [main] INFO  com.pages.PageBase - Title - WorkFlow ---> OK! 
+11:52:12.285 [main] INFO  com.TestBase - ************ loginPageTitleTest ************ test passed
+11:52:16.851 [main] INFO  com.pages.PageBase - openSite - https://gdcloud.ru/release-17/
