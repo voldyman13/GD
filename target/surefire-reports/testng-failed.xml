@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Tests]">
+  <test thread-count="5" verbose="0" name="Test1(failed)">
+    <classes>
+      <class name="com.LoginPageTest">
+        <methods>
+          <include name="startLogger"/>
+          <include name="loginPositiveTest"/>
+          <include name="initPageObjects"/>
+          <include name="loginPositiveRememberCheckBox1Test"/>
+          <include name="loginPositiveRememberCheckBoxTest"/>
+          <include name="tearDown"/>
+          <include name="initTestSuite"/>
+          <include name="initWebDriver"/>
+          <include name="TearDown"/>
+          <include name="loginNegativeRememberCheckBoxTest"/>
+          <include name="stopLogger"/>
+        </methods>
+      </class> <!-- com.LoginPageTest -->
+      <class name="com.MainPageTest">
+        <methods>
+          <include name="startLogger"/>
+          <include name="logoutPositiveTest"/>
+          <include name="initPageObjects"/>
+          <include name="tearDown"/>
+          <include name="initTestSuite"/>
+          <include name="initWebDriver"/>
+          <include name="stopLogger"/>
+        </methods>
+      </class> <!-- com.MainPageTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->
