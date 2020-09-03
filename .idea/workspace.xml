@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21a520b7-3481-47ba-8223-d3dcb6ad63af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/MainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/LoginPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/MainPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pages/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pages/PageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Listener.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
