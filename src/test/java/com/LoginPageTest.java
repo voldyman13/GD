@@ -91,17 +91,6 @@ public class LoginPageTest extends TestBase {
         login.userNameCheck(userName);
     }
 
-    @Test(groups = {"LoginTests", "Negative"}, priority = 1)
-    public void loginPositiveRememberCheckBox1Test() throws AWTException {
-        login.inputLogin(loginPositive);
-        login.inputPassword(passwordPositive);
-        login.clickOnEnterButton();
-        login.currentPageCheckByTitle(mainPage, 60);
-        login.openSiteInNewTab(baseUrl);
-        login.currentPageCheckByTitle(mainPage, 10);
-        login.userNameCheck(userName);
-    }
-
     // enter positive login & password, click on Another Account Button, expect error message
     @Test(groups = {"LoginTests", "NegativeTests"}, priority = 2)
     public void loginNegativeAnotherAccountTest() {

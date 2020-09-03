@@ -3,24 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="21a520b7-3481-47ba-8223-d3dcb6ad63af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-20200903T041138.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Tests/Test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Tests/Test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Tests/Test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Tests/Test1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Tests/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Tests/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.LoginPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.LoginPageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.MainPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.MainPageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Tests/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Tests/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Tests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Tests/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Tests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Tests/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log-20200903T115023.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log-20200903T115023.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/LoginPageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/MainPageTest.class" afterDir="false" />
     </list>

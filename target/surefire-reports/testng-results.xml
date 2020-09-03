@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="12" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="146036" started-at="2020-09-03T16:52:04 IDT" finished-at="2020-09-03T16:54:30 IDT">
+    <groups>
+      <group name="PositiveTests">
+        <method signature="LoginPageTest.loginPageTitleTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPageTitleTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginPositiveRememberCheckBoxTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPositiveRememberCheckBoxTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginPositiveTest()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="loginPositiveTest" class="com.LoginPageTest"/>
+        <method signature="MainPageTest.logoutPositiveTest()[pri:0, instance:com.MainPageTest@1e730495]" name="logoutPositiveTest" class="com.MainPageTest"/>
+      </group> <!-- PositiveTests -->
+      <group name="NegativeTests">
+        <method signature="LoginPageTest.loginNegativeAnotherAccountTest()[pri:2, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeAnotherAccountTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginNegativeCurrentAccountTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeCurrentAccountTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginNegativeWrongLoginTest()[pri:2, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeWrongLoginTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginNegativeWrongPasswordTest()[pri:2, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeWrongPasswordTest" class="com.LoginPageTest"/>
+      </group> <!-- NegativeTests -->
+      <group name="Negative">
+        <method signature="LoginPageTest.loginNegativeRememberCheckBoxTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeRememberCheckBoxTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginPositiveRememberCheckBox1Test()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPositiveRememberCheckBox1Test" class="com.LoginPageTest"/>
+      </group> <!-- Negative -->
+      <group name="LoginPageTests">
+        <method signature="LoginPageTest.loginPageTitleTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPageTitleTest" class="com.LoginPageTest"/>
+      </group> <!-- LoginPageTests -->
+      <group name="InterfaceTests">
+        <method signature="LoginPageTest.loginPageTitleTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPageTitleTest" class="com.LoginPageTest"/>
+      </group> <!-- InterfaceTests -->
+      <group name="MainPageTests">
+        <method signature="MainPageTest.logoutPositiveTest()[pri:0, instance:com.MainPageTest@1e730495]" name="logoutPositiveTest" class="com.MainPageTest"/>
+      </group> <!-- MainPageTests -->
+      <group name="LoginTests">
+        <method signature="LoginPageTest.loginNegativeAnotherAccountTest()[pri:2, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeAnotherAccountTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginNegativeCurrentAccountTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeCurrentAccountTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginNegativeRememberCheckBoxTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeRememberCheckBoxTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginNegativeWrongLoginTest()[pri:2, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeWrongLoginTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginNegativeWrongPasswordTest()[pri:2, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeWrongPasswordTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginPositiveRememberCheckBox1Test()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPositiveRememberCheckBox1Test" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginPositiveRememberCheckBoxTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPositiveRememberCheckBoxTest" class="com.LoginPageTest"/>
+        <method signature="LoginPageTest.loginPositiveTest()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="loginPositiveTest" class="com.LoginPageTest"/>
+      </group> <!-- LoginTests -->
+    </groups>
+    <test name="Test1" duration-ms="146036" started-at="2020-09-03T16:52:04 IDT" finished-at="2020-09-03T16:54:30 IDT">
+      <class name="com.MainPageTest">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.MainPageTest@1e730495]" name="initWebDriver" is-config="true" duration-ms="3694" started-at="2020-09-03T16:54:13 IDT" finished-at="2020-09-03T16:54:17 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.MainPageTest@1e730495]" name="initPageObjects" is-config="true" duration-ms="2028" started-at="2020-09-03T16:54:17 IDT" finished-at="2020-09-03T16:54:19 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="logoutPositiveTest()[pri:0, instance:com.MainPageTest@1e730495]" name="logoutPositiveTest" duration-ms="11179" started-at="2020-09-03T16:54:19 IDT" finished-at="2020-09-03T16:54:30 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPositiveTest -->
+      </class> <!-- com.MainPageTest -->
+      <class name="com.LoginPageTest">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initTestSuite" is-config="true" duration-ms="58" started-at="2020-09-03T16:52:04 IDT" finished-at="2020-09-03T16:52:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestSuite -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initWebDriver" is-config="true" duration-ms="5657" started-at="2020-09-03T16:52:04 IDT" finished-at="2020-09-03T16:52:09 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initPageObjects" is-config="true" duration-ms="2220" started-at="2020-09-03T16:52:09 IDT" finished-at="2020-09-03T16:52:12 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="loginPositiveTest()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="loginPositiveTest" duration-ms="7390" started-at="2020-09-03T16:52:12 IDT" finished-at="2020-09-03T16:52:19 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositiveTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="TearDown" is-config="true" duration-ms="1040" started-at="2020-09-03T16:52:19 IDT" finished-at="2020-09-03T16:52:20 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initWebDriver" is-config="true" duration-ms="3809" started-at="2020-09-03T16:52:20 IDT" finished-at="2020-09-03T16:52:24 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initPageObjects" is-config="true" duration-ms="3075" started-at="2020-09-03T16:52:24 IDT" finished-at="2020-09-03T16:52:27 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="loginNegativeCurrentAccountTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeCurrentAccountTest" duration-ms="601" started-at="2020-09-03T16:52:27 IDT" finished-at="2020-09-03T16:52:28 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeCurrentAccountTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="TearDown" is-config="true" duration-ms="1463" started-at="2020-09-03T16:52:28 IDT" finished-at="2020-09-03T16:52:29 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initWebDriver" is-config="true" duration-ms="3661" started-at="2020-09-03T16:52:29 IDT" finished-at="2020-09-03T16:52:33 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initPageObjects" is-config="true" duration-ms="2897" started-at="2020-09-03T16:52:33 IDT" finished-at="2020-09-03T16:52:36 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="loginNegativeRememberCheckBoxTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeRememberCheckBoxTest" duration-ms="18233" started-at="2020-09-03T16:52:36 IDT" finished-at="2020-09-03T16:52:54 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeRememberCheckBoxTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="TearDown" is-config="true" duration-ms="1206" started-at="2020-09-03T16:52:54 IDT" finished-at="2020-09-03T16:52:55 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initWebDriver" is-config="true" duration-ms="4630" started-at="2020-09-03T16:52:55 IDT" finished-at="2020-09-03T16:53:00 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initPageObjects" is-config="true" duration-ms="2038" started-at="2020-09-03T16:53:00 IDT" finished-at="2020-09-03T16:53:02 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPageTitleTest" duration-ms="26" started-at="2020-09-03T16:53:02 IDT" finished-at="2020-09-03T16:53:02 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="TearDown" is-config="true" duration-ms="1050" started-at="2020-09-03T16:53:02 IDT" finished-at="2020-09-03T16:53:03 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initWebDriver" is-config="true" duration-ms="3635" started-at="2020-09-03T16:53:03 IDT" finished-at="2020-09-03T16:53:06 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initPageObjects" is-config="true" duration-ms="2413" started-at="2020-09-03T16:53:06 IDT" finished-at="2020-09-03T16:53:09 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="loginPositiveRememberCheckBox1Test()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPositiveRememberCheckBox1Test" duration-ms="15014" started-at="2020-09-03T16:53:09 IDT" finished-at="2020-09-03T16:53:24 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositiveRememberCheckBox1Test -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="TearDown" is-config="true" duration-ms="1182" started-at="2020-09-03T16:53:24 IDT" finished-at="2020-09-03T16:53:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initWebDriver" is-config="true" duration-ms="4332" started-at="2020-09-03T16:53:25 IDT" finished-at="2020-09-03T16:53:29 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initPageObjects" is-config="true" duration-ms="2828" started-at="2020-09-03T16:53:29 IDT" finished-at="2020-09-03T16:53:32 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="loginPositiveRememberCheckBoxTest()[pri:1, instance:com.LoginPageTest@23f7d05d]" name="loginPositiveRememberCheckBoxTest" duration-ms="15874" started-at="2020-09-03T16:53:32 IDT" finished-at="2020-09-03T16:53:48 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositiveRememberCheckBoxTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="TearDown" is-config="true" duration-ms="1140" started-at="2020-09-03T16:53:48 IDT" finished-at="2020-09-03T16:53:49 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initWebDriver" is-config="true" duration-ms="4271" started-at="2020-09-03T16:53:49 IDT" finished-at="2020-09-03T16:53:53 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initPageObjects" is-config="true" duration-ms="2605" started-at="2020-09-03T16:53:53 IDT" finished-at="2020-09-03T16:53:56 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="loginNegativeAnotherAccountTest()[pri:2, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeAnotherAccountTest" duration-ms="640" started-at="2020-09-03T16:53:56 IDT" finished-at="2020-09-03T16:53:57 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeAnotherAccountTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="TearDown" is-config="true" duration-ms="962" started-at="2020-09-03T16:53:57 IDT" finished-at="2020-09-03T16:53:58 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initWebDriver" is-config="true" duration-ms="3693" started-at="2020-09-03T16:53:58 IDT" finished-at="2020-09-03T16:54:01 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initPageObjects" is-config="true" duration-ms="2114" started-at="2020-09-03T16:54:01 IDT" finished-at="2020-09-03T16:54:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="loginNegativeWrongLoginTest()[pri:2, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeWrongLoginTest" duration-ms="755" started-at="2020-09-03T16:54:04 IDT" finished-at="2020-09-03T16:54:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeWrongLoginTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="TearDown" is-config="true" duration-ms="940" started-at="2020-09-03T16:54:04 IDT" finished-at="2020-09-03T16:54:05 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initWebDriver" is-config="true" duration-ms="3696" started-at="2020-09-03T16:54:05 IDT" finished-at="2020-09-03T16:54:09 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="initPageObjects" is-config="true" duration-ms="1998" started-at="2020-09-03T16:54:09 IDT" finished-at="2020-09-03T16:54:11 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="loginNegativeWrongPasswordTest()[pri:2, instance:com.LoginPageTest@23f7d05d]" name="loginNegativeWrongPasswordTest" duration-ms="712" started-at="2020-09-03T16:54:11 IDT" finished-at="2020-09-03T16:54:12 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeWrongPasswordTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="TearDown" is-config="true" duration-ms="1223" started-at="2020-09-03T16:54:12 IDT" finished-at="2020-09-03T16:54:13 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.LoginPageTest@23f7d05d]" name="tearDown" is-config="true" duration-ms="1055" started-at="2020-09-03T16:54:30 IDT" finished-at="2020-09-03T16:54:31 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LoginPageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>
